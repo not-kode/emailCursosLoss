@@ -6,6 +6,9 @@
     <title>Loss Prevention - Cursos 2º Semestre</title>
     <style>
         @media only screen and (max-width: 600px) {
+            .mobile-dark-section {
+                padding: 40px 20px 80px 20px !important;
+            }
             .mobile-container {
                 width: 100% !important;
                 max-width: 100% !important;
@@ -81,8 +84,8 @@
                 
                 <!-- Container principal com posição relativa -->
                 <div style="position:relative;">
-                    <!-- Seção Escura - Posição absoluta -->
-                    <div style="position:relative; background-color:#1f1e1f; color:white; text-align:center; padding:40px 20px 32px 20px; z-index:1;">
+                    <!-- Seção Escura - Posição absoluta com padding-bottom adicionado -->
+                    <div class="mobile-dark-section" style="position:relative; background-color:#1f1e1f; color:white; text-align:center; padding:40px 20px 80px 20px; z-index:1;">
                         <div style="position:absolute; top:0; left:0; right:0; bottom:0; background-image:url('background-glitch-optimized.jpg'); background-size:cover; background-position:center; opacity:0.1; z-index:-1;"></div>
                         <div class="mobile-container" style="width:100%; max-width:800px; margin:0 auto; padding:20px; position:relative; z-index:1; box-sizing:border-box;">
                             <img src="image-loss-optimized.jpg" alt="Loss Prevention" style="max-width:600px; width:100%; height:auto; margin-bottom:20px;">
